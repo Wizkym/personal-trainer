@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/white"
+    tools:context="net.androidbootcamp.personaltrainer.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgSplash"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/imgSplash"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/txtSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgSplash"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/txtSplash"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        tools:text="@string/txtSplash" />
+</RelativeLayout>

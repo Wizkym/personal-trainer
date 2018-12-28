@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context="net.androidbootcamp.personaltrainer.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDescription"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="@string/txtTitle"
+        android:textColor="@android:color/black"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:text="@string/txtTitle" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtDescription"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/imgLogo"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="615dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/txtDescription"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="169dp"
+        tools:text="@string/txtDescription" />
+
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/btnTime"
+        android:contentDescription="@string/btnDate"
+        android:text="@string/btnDate"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:text="@string/btnDate" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/btnTime"
+        android:text="@string/btnTime"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="567dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:text="@string/btnTime" />
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifimageView"
+        android:layout_width="223dp"
+        android:layout_height="223dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="28dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/gifDesc"
+        android:scaleType="center" />
+
+    <ImageView
+        android:id="@+id/imgBottom"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/imgBottom"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/bottom" />
+
+</RelativeLayout>

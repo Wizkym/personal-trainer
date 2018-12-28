@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Personal Trainer</string>
+    <string name="imgTrain">Training gif</string>
+    <string name="txtTitle">Gold\'s Gym Personal Trainer Reservation</string>
+    <string name="imgLogo">Personal Trainer Logo</string>
+    <string name="txtDescription">Our trainers are well qualified, meet all qualifications and are the best available. Meet with a trainer today!</string>
+    <string name="btnDate">Pick a day</string>
+    <string name="btnTime">Select the time</string>
+    <string name="imgSplash">"Golds Gym"</string>
+    <string name="txtSplash">Know your own strength...</string>
+    <string name="gifDesc">Workout gifs</string>
+    <string name="imgBottom">Bottom wrap</string>
+</resources>
